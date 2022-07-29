@@ -1,0 +1,12 @@
+{
+  "description": "Rpc PHP Sandbox",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "RpcPHPSandbox\\": "src/"
+    }
+  },
+  "require": {
+    "ext-sockets": "*"
+  }
+}

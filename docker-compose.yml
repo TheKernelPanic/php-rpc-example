@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  php_container:
+    image: php:8.0.21-cli-alpine
+    container_name: php_test_rpc
+    tty: true
+    volumes:
+      - './:/usr/share/app'
+    working_dir: /usr/share/app
+    ports:
+      - '8080:8080'
